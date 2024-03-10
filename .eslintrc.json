@@ -9,9 +9,10 @@
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
+        // "project": ["**ts/config.json"]
     },
     "plugins": ["@typescript-eslint"],
-    "ignorePatterns": ["**node_modules", "**/build", "**/build"],
+    "ignorePatterns": ["**node_modules", "**/build", "**/public"],
     "rules": {
     }
 }
